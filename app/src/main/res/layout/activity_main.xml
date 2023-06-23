@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNumero"
+            android:hint="Numero Telefonico"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:inputType="phone"
+            android:layout_marginHorizontal="40dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGuardar"
+            android:text="Guardar"
+            android:textSize="25sp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/etNumero"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
